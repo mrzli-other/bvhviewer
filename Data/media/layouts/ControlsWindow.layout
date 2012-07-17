@@ -1,0 +1,26 @@
+<GUILayout>
+    <Window Name="ControlsWindow" Type="TaharezLook/FrameWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,400},{0,360}}" />
+        <Property Name="Text" Value="Controls" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Name="ControlsWindow/Text" Type="TaharezLook/StaticText">
+            <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.07,0},{0.97,0},{0.9,0}}" />
+            <Property Name="Text">Move left: LEFT ARROW or A
+Move right: RIGHT ARROW or D
+Move forward: UP ARROW or W
+Move back: DOWN ARROW or S
+Move up: PAGE UP or SPACE
+Move down: PAGE DOWN or LEFT CONTROL
+Camera pitch/yaw: RMB + Mouse Move
+Reset camera: R
+Exit application: ESC</Property>
+            <Property Name="VertFormatting" Value="TopAligned" />
+        </Window>
+        <Window Name="ControlsWindow/CloseButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.92,0},{0.6,0},{0.98,0}}" />
+            <Property Name="Text" Value="Close" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,11 @@
+material BVH_Reader/Bone
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 1 0
+			diffuse 0 1 0
+		}
+	}
+}

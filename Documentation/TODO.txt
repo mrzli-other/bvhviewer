@@ -1,0 +1,4 @@
+- disable multiclick on frame scroll arrows to make them more responsive
+  - disabling multiclick on scrollbar control doesn't seem to work
+- remember last opened directory in open file dialog
+- fix control layout in CommonFileDialog so that they don't overlap

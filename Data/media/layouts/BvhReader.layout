@@ -1,0 +1,105 @@
+<GUILayout>
+    <Window Name="BvhReaderGui" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,-1},{1,0},{1,-1}}" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Window Name="BvhReaderGui/MainMenu" Type="TaharezLook/Menubar">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,21}}" />
+            <Window Name="BvhReaderGui/MainMenu/File" Type="TaharezLook/MenuItem">
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,0},{0,35},{0,21}}" />
+                <Property Name="Text" Value="File" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Name="BvhReaderGui/MainMenu/File/AutoPopup" Type="TaharezLook/PopupMenu">
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,59},{0,49.0295}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="ItemSpacing" Value="2" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="AutoResizeEnabled" Value="True" />
+                    <Window Name="BvhReaderGui/MainMenu/File/AutoPopup/Open" Type="TaharezLook/MenuItem">
+                        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,55},{0,23}}" />
+                        <Property Name="Text" Value="Open..." />
+                    </Window>
+                    <Window Name="BvhReaderGui/MainMenu/File/AutoPopup/Exit" Type="TaharezLook/MenuItem">
+                        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,25},{0,55},{0,46}}" />
+                        <Property Name="Text" Value="Exit" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Name="BvhReaderGui/MainMenu/Animation" Type="TaharezLook/MenuItem">
+                <Property Name="UnifiedAreaRect" Value="{{0,45},{0,0},{0,117},{0,21}}" />
+                <Property Name="Text" Value="Animation" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Name="BvhReaderGui/MainMenu/Animation/AutoPopup" Type="TaharezLook/PopupMenu">
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,53},{0,71.5443}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="ItemSpacing" Value="2" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="AutoResizeEnabled" Value="True" />
+                    <Window Name="BvhReaderGui/MainMenu/Animation/AutoPopup/Play" Type="TaharezLook/MenuItem">
+                        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,49},{0,23}}" />
+                        <Property Name="Text" Value="Play" />
+                    </Window>
+                    <Window Name="BvhReaderGui/MainMenu/Animation/AutoPopup/Pause" Type="TaharezLook/MenuItem">
+                        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,25},{0,49},{0,46}}" />
+                        <Property Name="Text" Value="Pause" />
+                    </Window>
+                    <Window Name="BvhReaderGui/MainMenu/Animation/AutoPopup/Reset" Type="TaharezLook/MenuItem">
+                        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,48},{0,49},{0,69}}" />
+                        <Property Name="Text" Value="Reset" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Name="BvhReaderGui/MainMenu/Mesh" Type="TaharezLook/MenuItem">
+                <Property Name="UnifiedAreaRect" Value="{{0,127},{0,0},{0,168},{0,21}}" />
+                <Property Name="Text" Value="Mesh" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="BvhReaderGui/MainMenu/Help" Type="TaharezLook/MenuItem">
+                <Property Name="UnifiedAreaRect" Value="{{0,178},{0,0},{0,213},{0,21}}" />
+                <Property Name="Text" Value="Help" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Name="BvhReaderGui/MainMenu/Help/AutoPopup" Type="TaharezLook/PopupMenu">
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,17},{0,79},{0,66.0295}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="ItemSpacing" Value="2" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="AutoResizeEnabled" Value="True" />
+                    <Window Name="BvhReaderGui/MainMenu/Help/AutoPopup/Controls" Type="TaharezLook/MenuItem">
+                        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,2},{0,75},{0,23}}" />
+                        <Property Name="Text" Value="Controls..." />
+                    </Window>
+                    <Window Name="BvhReaderGui/MainMenu/Help/AutoPopup/About" Type="TaharezLook/MenuItem">
+                        <Property Name="UnifiedAreaRect" Value="{{0,2},{0,25},{0,75},{0,46}}" />
+                        <Property Name="Text" Value="About..." />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Name="BvhReaderGui/HorizontalLayoutContainer" Type="HorizontalLayoutContainer">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-30},{1,0},{1,0}}" />
+            <Window Name="BvhReaderGui/HorizontalLayoutContainer/Play" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,80},{0,30}}" />
+                <Property Name="Text" Value="Play" />
+                <Property Name="WantsMultiClickEvents" Value="False" />
+            </Window>
+            <Window Name="BvhReaderGui/HorizontalLayoutContainer/Pause" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0,80},{0,0},{0,160},{0,30}}" />
+                <Property Name="Text" Value="Pause" />
+                <Property Name="WantsMultiClickEvents" Value="False" />
+            </Window>
+            <Window Name="BvhReaderGui/HorizontalLayoutContainer/Reset" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0,160},{0,0},{0,240},{0,30}}" />
+                <Property Name="Text" Value="Reset" />
+                <Property Name="WantsMultiClickEvents" Value="False" />
+            </Window>
+            <Window Name="BvhReaderGui/HorizontalLayoutContainer/FrameSlider" Type="TaharezLook/HorizontalScrollbar">
+                <Property Name="UnifiedAreaRect" Value="{{0,240},{0,0},{0,640},{0,30}}" />
+                <Property Name="WantsMultiClickEvents" Value="False" />
+            </Window>
+            <Window Name="BvhReaderGui/HorizontalLayoutContainer/FrameText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0,640},{0,0},{0,800},{0,30}}" />
+                <Property Name="Text" Value="Frame:" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

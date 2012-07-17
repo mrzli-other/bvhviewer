@@ -1,0 +1,22 @@
+<GUILayout>
+    <Window Name="AboutWindow" Type="TaharezLook/FrameWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,400},{0,360}}" />
+        <Property Name="Text" Value="About" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Name="AboutWindow/Text" Type="TaharezLook/StaticText">
+            <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.07,0},{0.97,0},{0.9,0}}" />
+            <Property Name="Text">Name: BVH Viewer
+Version: 1.2
+Build date: 2012-06-16
+Author: Goran Mrzljak
+Notes: Uses OGRE and CEGUI.</Property>
+            <Property Name="VertFormatting" Value="TopAligned" />
+        </Window>
+        <Window Name="AboutWindow/CloseButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.92,0},{0.6,0},{0.98,0}}" />
+            <Property Name="Text" Value="Close" />
+        </Window>
+    </Window>
+</GUILayout>

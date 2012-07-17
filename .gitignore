@@ -1,0 +1,17 @@
+/BVHViewer.sln.docstates.suo
+/BVHViewer.suo
+/BVHViewer.sdf
+
+Ogre.log
+
+/ipch/
+/Dependencies/
+Debug/
+Release/
+
+/Data/BVH/
+/Data/media/fonts/
+/Data/media/imagesets/
+/Data/media/looknfeel/
+/Data/media/schemes/
+/Data/media/xml_schemas/

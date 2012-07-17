@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application_H">
+      <UniqueIdentifier>{a3e835ef-a18a-46ea-9fa0-26aa9f6225e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application_SRC">
+      <UniqueIdentifier>{2d168286-a153-4cc2-911e-3ea8157f4bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auxiliary_H">
+      <UniqueIdentifier>{b0b081af-b800-4ca1-9d44-83e0dffbe980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auxiliary_SRC">
+      <UniqueIdentifier>{5c96a71f-90a0-45a9-8141-74867ea5b4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_H">
+      <UniqueIdentifier>{39f64860-5e62-43dc-86d6-e3699eb183dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_SRC">
+      <UniqueIdentifier>{f3f06b75-d86e-4252-ae50-e7b4b4f2e151}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseApplication.cpp">
+      <Filter>Application_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationData.cpp">
+      <Filter>Data_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="BvhViewerApp.cpp">
+      <Filter>Application_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="CEGUICommonFileDialog.cpp">
+      <Filter>Auxiliary_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="_WinMain.cpp" />
+    <ClCompile Include="BvhViewerView.cpp">
+      <Filter>Application_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="BvhViewerViewModel.cpp">
+      <Filter>Application_SRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseApplication.h">
+      <Filter>Application_H</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationData.h">
+      <Filter>Data_H</Filter>
+    </ClInclude>
+    <ClInclude Include="BvhViewerApp.h">
+      <Filter>Application_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CEGUICommonFileDialog.h">
+      <Filter>Auxiliary_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CEGUISingletonX.h">
+      <Filter>Auxiliary_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CEGUIHashMapTemplates.h">
+      <Filter>Auxiliary_H</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneInfo.h">
+      <Filter>Data_H</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameData.h">
+      <Filter>Data_H</Filter>
+    </ClInclude>
+    <ClInclude Include="BvhViewerView.h">
+      <Filter>Application_H</Filter>
+    </ClInclude>
+    <ClInclude Include="BvhViewerViewModel.h">
+      <Filter>Application_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
