@@ -1,9 +1,15 @@
 This is an application for viewing skeletal animations stored in BVH files.
 
 To compile/run this application in Visual Studio:
-
 1. Checkout code from this repository
 2. Download 'BVHViewerDependenciesEtc.zip' from https://github.com/mrzli/bvhviewer/downloads
 3. Unzip and copy content of 'BVHViewerDependenciesEtc' folder to your solution folder (overwrite if prompted)
 
 You can also download BVH Viewer executable 'BVHViewer.zip' from https://github.com/mrzli/bvhviewer/downloads
+
+How to use the application:
+
+To open BVH file go to File->Open... (BVH files should be located in <project_or_executable_folder>/Data/BVH/).
+To change bone mesh: use Mesh in main menu.
+To control the camera: use mouse and keyboard as specified in Help->Controls...
+To control animation: use controls at the bottom of the screen or Animation in main menu.
